@@ -1,0 +1,2 @@
+SQLite is a lightweight database engine stored in a single file.
+It is useful for local applications and small projects.

@@ -1,0 +1,2 @@
+Python is a programming language used for automation, web development, and AI.
+It is known for its simple syntax and readability.
