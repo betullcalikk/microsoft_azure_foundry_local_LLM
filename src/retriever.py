@@ -61,7 +61,7 @@ def cosine_similarity(vec1: List[float], vec2: List[float]) -> float:
     return dot_product / (norm_a * norm_b)
 
 
-def retrieve_top_k(query: str, db_path: str, top_k: int = 2) -> List[Tuple[str, float]]:
+def retrieve_top_k(query: str, db_path: str, top_k: int = 1) -> List[Tuple[str, float]]:
     """
     Sorulan soruya en benzer metin parçalarını (chunks) veritabanından bulup getirir.
     """

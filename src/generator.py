@@ -2,7 +2,7 @@ from foundry_local_sdk import Configuration, FoundryLocalManager
 
 
 class Generator:
-    def __init__(self, model_name: str = "qwen2.5-0.5b", app_name: str = "rag-app"):
+    def __init__(self, model_name: str = "qwen2.5-1.5b", app_name: str = "rag-app"):
         try:
             FoundryLocalManager.initialize(Configuration(app_name=app_name))
         except Exception:
@@ -26,11 +26,11 @@ class Generator:
 
     def generate_answer(self, query: str, context: str) -> str:
         system_prompt = (
-            "Sen Türkçe cevap veren dikkatli bir asistansın. "
-            "Sadece verilen bağlamı kullan. "
-            "Bağlamda cevap yoksa aynen şu cümleyi söyle: "
-            "'Bu bilgi belgelerde bulunamadı.' "
-            "Uydurma yapma."
+            "Sen sadece sana verilen metinleri kullanarak cevap üreten bir asistansın.\n"
+            "Lütfen aşağıdaki kurallara kesinlikle uy:\n"
+            "1. Sadece metinlerdeki bilgileri kullan. Kendi genel bilgini asla ekleme.\n"
+            "2. Eğer sorunun cevabı metinlerde varsa, o bilgiyle soruyu cevapla.\n"
+            "3. Eğer metinlerde soruyla ilgili hiçbir bilgi yoksa, sadece şunu söyle: 'Bu bilgi belgelerde bulunamadı.'"
         )
 
         user_prompt = f"Bağlam:\n{context}\n\nSoru:\n{query}"

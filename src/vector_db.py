@@ -54,8 +54,9 @@ def init_db(db_path: str) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
+    cursor.execute('DROP TABLE IF EXISTS documents')
     cursor.execute('''
-    CREATE TABLE IF NOT EXISTS documents (
+    CREATE TABLE documents (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         content TEXT NOT NULL,
         embedding TEXT NOT NULL

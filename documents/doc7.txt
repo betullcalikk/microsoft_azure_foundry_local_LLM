@@ -1,0 +1,23 @@
+Frontend (Önyüz) ve Backend (Arkayüz) Geliştirme: Kapsamlı Bir Karşılaştırma
+
+Bir web uygulamasının veya mobil uygulamanın mimarisi genellikle iki ana bölüme ayrılır: Frontend (istemci tarafı) ve Backend (sunucu tarafı). Bu iki alan, farklı teknolojiler, farklı zihniyetler ve farklı sorumluluklar gerektirir.
+
+1. Frontend (Önyüz) Geliştirme Nedir?
+Frontend, kullanıcıların tarayıcılarında veya cihazlarında doğrudan gördükleri, dokundukları ve etkileşime girdikleri her şeyi kapsar. Temel amacı, kusursuz bir kullanıcı deneyimi (UX) ve çekici bir kullanıcı arayüzü (UI) sunmaktır.
+* Temel Teknolojiler: HTML (sayfanın iskeleti), CSS (sayfanın tasarımı ve görünümü) ve JavaScript (sayfanın etkileşimi ve dinamiği).
+* Modern Çerçeveler (Frameworks): Günümüzde saf JavaScript yerine genellikle React.js, Vue.js veya Angular gibi modern kütüphaneler kullanılır. Bu araçlar, karmaşık arayüzlerin daha hızlı ve modüler bir şekilde inşa edilmesini sağlar.
+* Sorumluluklar: Mobil uyumluluk (Responsive Design), sayfa yüklenme hızı optimizasyonu, erişilebilirlik (A11y) standartlarına uyum, buton tıklamaları, form doğrulamaları ve animasyonlar frontend geliştiricisinin sorumluluğundadır.
+
+2. Backend (Arkayüz) Geliştirme Nedir?
+Backend, uygulamanın "beyni" ve "hafızası"dır. Kullanıcıların göremediği ancak uygulamanın çalışması için hayati olan tüm işlemler burada gerçekleşir. Sunucu, veritabanı ve arka plan iş mantığından oluşur.
+* Temel Teknolojiler: Python, Java, C#, Node.js (JavaScript), Ruby, Go ve PHP gibi programlama dilleri kullanılır.
+* Veritabanları: Verilerin güvenli bir şekilde saklanması ve çağrılması backend'in işidir. İlişkisel (SQL) veritabanları olarak PostgreSQL, MySQL, Oracle; NoSQL veritabanları olarak ise MongoDB, Redis veya Cassandra sıkça kullanılır.
+* Sorumluluklar: Kullanıcı kimlik doğrulaması (login/register), yetkilendirme (authorization), veritabanı sorgularının optimizasyonu, sunucu güvenliği, veri şifreleme ve diğer sistemlerle haberleşmek için API (Application Programming Interface) tasarlamak backend geliştiricisinin ana görevleridir.
+
+3. Frontend ve Backend Nasıl İletişim Kurar?
+İki sistem birbirleriyle API'lar aracılığıyla konuşur. Genellikle RESTful API veya GraphQL standartları kullanılır. Örneğin, kullanıcı frontend'de bir "Giriş Yap" butonuna tıkladığında, frontend kullanıcının girdiği e-posta ve şifreyi JSON formatında bir HTTP isteği (Request) olarak backend'e gönderir. Backend bu bilgiyi veritabanındaki bilgilerle karşılaştırır ve eğer doğruysa frontend'e bir onay mesajı (Response) döndürür. Frontend de bu onayı alınca kullanıcıyı profil sayfasına yönlendirir.
+
+4. Full-Stack Geliştirici Kime Denir?
+Hem frontend hem de backend teknolojilerine hakim olan, veritabanı tasarımından arayüz animasyonlarına kadar bir uygulamanın uçtan uca tüm süreçlerini geliştirebilen yazılımcılara Full-Stack Developer denir. Genellikle MERN (MongoDB, Express, React, Node) veya MEAN (MongoDB, Express, Angular, Node) gibi popüler teknoloji yığınlarını (stack) kullanırlar.
+
+Özetle; Frontend bir restoranın şık masaları, garsonları ve menüsüdür (müşterinin gördüğü her şey). Backend ise mutfak, aşçılar, kiler ve malzemelerin yönetimidir (müşterinin görmediği ama yemeğin hazırlandığı yer). İkisi olmadan restoran çalışamaz.
