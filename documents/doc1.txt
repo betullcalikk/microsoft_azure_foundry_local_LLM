@@ -1,2 +1,11 @@
-Python is a programming language used for automation, web development, and AI.
-It is known for its simple syntax and readability.
+Python, genel amaçlı, yüksek seviyeli ve okunabilirliği yüksek bir programlama dilidir.
+Basit sözdizimi sayesinde hem başlangıç seviyesindeki kullanıcılar hem de profesyonel geliştiriciler tarafından tercih edilir.
+
+Python; veri analizi, web geliştirme, otomasyon, yapay zeka ve makine öğrenmesi gibi birçok alanda kullanılır.
+Bu projede Python, uygulamanın ana geliştirme dili olarak kullanılmaktadır.
+
+Python'da değişkenler, fonksiyonlar, döngüler, koşul ifadeleri, listeler, sözlükler ve sınıflar gibi temel yapılar bulunur.
+Ayrıca zengin kütüphane ekosistemi sayesinde farklı ihtiyaçlara kolayca çözüm üretilebilir.
+
+Örneğin NumPy sayısal işlemler için, Pandas veri analizi için, Streamlit arayüz geliştirme için kullanılabilir.
+Python dosyaları genellikle .py uzantısıyla kaydedilir ve venv gibi sanal ortamlarla proje bağımsız çalıştırılabilir.

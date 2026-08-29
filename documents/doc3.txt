@@ -1,2 +1,13 @@
-RAG stands for Retrieval-Augmented Generation.
-It retrieves relevant information from documents and uses it to generate answers.
+RAG, Retrieval Augmented Generation ifadesinin kısaltmasıdır.
+Bu yaklaşım, büyük dil modelinin cevabı doğrudan uydurması yerine önce ilgili bilgiyi belgelerden getirmesini sağlar.
+
+RAG sisteminde önce kullanıcı sorusu embedding vektörüne dönüştürülür.
+Daha sonra bu vektör, veritabanındaki belge parçalarıyla karşılaştırılır ve en alakalı chunk'lar seçilir.
+
+Seçilen bağlam, büyük dil modeline eklenir ve model bu bağlama dayanarak cevap üretir.
+Böylece sistem sadece genel bilgiye değil, yüklenen dokümanlara da dayanarak cevap verir.
+
+RAG yaklaşımı özellikle kurum içi bilgi asistanları, doküman tabanlı destek sistemleri ve özel veriyle çalışan chatbot projeleri için çok uygundur.
+Bu yöntem, modelin yanlış veya uydurma cevap üretme riskini azaltmaya yardımcı olur.
+
+Bu projede RAG akışı şu şekildedir: doküman yükleme, chunking, embedding, vector search, retrieval ve generation.

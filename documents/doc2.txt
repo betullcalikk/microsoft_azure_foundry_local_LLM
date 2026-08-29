@@ -1,2 +1,11 @@
-SQLite is a lightweight database engine stored in a single file.
-It is useful for local applications and small projects.
+SQLite, hafif, hızlı ve dosya tabanlı bir veritabanı yönetim sistemidir.
+Ayrı bir sunucu kurmaya gerek kalmadan tek bir .db dosyası içinde veri saklayabilir.
+
+SQLite küçük ve orta ölçekli projelerde, prototip geliştirmede ve yerel uygulamalarda sık kullanılır.
+Bu proje kapsamında chunk metinlerini, embedding vektörlerini ve diğer metadata bilgilerini saklamak için uygundur.
+
+SQLite ile tablo oluşturma, veri ekleme, veri güncelleme, veri silme ve veri sorgulama işlemleri yapılabilir.
+SQL dilini destekler ve temel SELECT, INSERT, UPDATE, DELETE komutlarıyla çalışır.
+
+Bu projede SQLite, belgelerden üretilen vektörlerin saklandığı rag_database.db dosyasının temelini oluşturur.
+Dosya tabanlı yapısı sayesinde proje kolayca taşınabilir ve paylaşılabilir.

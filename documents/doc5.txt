@@ -1,0 +1,13 @@
+Prompt engineering, büyük dil modellerine ne yapması gerektiğini açık, net ve kontrollü şekilde anlatma sürecidir.
+Amaç, modelden daha doğru, daha tutarlı ve daha kullanışlı cevaplar almaktır.
+
+İyi bir prompt; görev tanımını, çıktı formatını, dil tercihini ve kısıtları açıkça belirtir.
+Örneğin "Sadece Türkçe cevap ver", "Bilgi yoksa uydurma", "Maddeler halinde yaz" gibi yönergeler prompt'un kalitesini artırır.
+
+Prompt engineering, system prompt ve user prompt gibi farklı katmanlarla uygulanabilir.
+System prompt modelin genel davranışını belirlerken, user prompt kullanıcının gerçek sorusunu içerir.
+
+Bu projede prompt engineering, retriever'dan gelen bağlamın yalnızca onunla sınırlı şekilde kullanılmasını sağlamak için önemlidir.
+Eğer belgelerde bilgi yoksa modelin "Bu bilgi belgelerde bulunamadı." gibi bir fallback mesajı vermesi prompt ile kontrol edilebilir.
+
+İyi prompt yazımı, modelin yanlış bilgi üretmesini azaltır ve belgeye sadık cevaplar oluşturmasına yardımcı olur.

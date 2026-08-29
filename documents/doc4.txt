@@ -1,0 +1,12 @@
+Bu doküman teknik proje bilgisi içermez ve özellikle test amaçlı hazırlanmıştır.
+
+Ofis kuralları:
+Çalışma saatleri sabah 09:00 ile akşam 17:00 arasındadır.
+Yazıcı kullanımı için önce sıra alınması gerekir.
+Toplantı odası kullanıldıktan sonra ışıkların kapatılması ve masanın düzenli bırakılması beklenir.
+
+Mutfakta kahve makinesi bulunduğunda, kullanımdan sonra su haznesinin kontrol edilmesi gerekir.
+Bitkilerin sulanması salı ve cuma günleri yapılır.
+
+Bu metin Python, SQLite, RAG, embedding veya veri bilimi ile ilgili değildir.
+Bu nedenle bazı sorular için doğru cevap içermez.

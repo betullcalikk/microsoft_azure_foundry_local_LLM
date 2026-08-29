@@ -1,0 +1,17 @@
+Veri analizi, mevcut verileri inceleyerek anlamlı sonuçlar çıkarmayı hedefler.
+Bir veri analisti genellikle raporlama, görselleştirme, KPI takibi ve iş kararlarını destekleme işleri yapar.
+Excel, SQL, Python, Power BI ve Tableau gibi araçlar veri analizinde sık kullanılır.
+
+Veri bilimi, veriden tahmin, sınıflandırma ve modelleme yapmayı hedefleyen daha geniş bir alandır.
+Bir veri bilimci istatistik, makine öğrenmesi ve deney tasarımı gibi yöntemlerle çalışabilir.
+Amaç sadece geçmişi anlamak değil, geleceğe dair öngörüler üretmektir.
+
+Veri mühendisliği ise verinin güvenli, temiz, düzenli ve erişilebilir bir şekilde taşınması ve saklanmasıyla ilgilenir.
+Veri mühendisleri veri boru hatları (pipelines), ETL/ELT süreçleri, veri ambarları ve veritabanı entegrasyonları kurar.
+Airflow, Spark, SQL, Kafka ve bulut servisleri bu alanda sık kullanılır.
+
+Bu üç alan birbirine bağlıdır ama görevleri farklıdır.
+Veri analisti çoğunlukla veriyi yorumlar, veri bilimci model kurar, veri mühendisi ise verinin altyapısını hazırlar.
+Özetle analiz "ne oldu?", veri bilimi "ne olacak?", veri mühendisliği ise "veri nasıl güvenli ve düzenli akar?" sorularına odaklanır.
+
+Bu doküman, veriyle çalışan sistemlerde rol farklarını anlamak için hazırlanmıştır.
