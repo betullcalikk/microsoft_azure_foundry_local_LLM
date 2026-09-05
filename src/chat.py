@@ -6,7 +6,7 @@ class ChatManager:
         FoundryLocalManager.initialize(Configuration(app_name="my-app"))
         self.manager = FoundryLocalManager.instance
 
-        self.model = self.manager.catalog.get_model("qwen2.5-0.5b")
+        self.model = self.manager.catalog.get_model("phi-3.5-mini-instruct")
 
         self.model.download(
             lambda p: print(f"\rDownloading {p:.0f}%", end="", flush=True)

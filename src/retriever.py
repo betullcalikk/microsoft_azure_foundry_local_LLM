@@ -98,7 +98,7 @@ if __name__ == "__main__":
     print(f"\n--- RAG RETRIEVER TEST ---")
     print(f"Soru: {test_query}\n")
 
-    top_results = retrieve_top_k(test_query, db_path, top_k=2)
+    top_results = retrieve_top_k(test_query, db_path, top_k=1)
 
     print("\nEn alakalı sonuçlar:")
     print("-" * 40)
