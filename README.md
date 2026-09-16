@@ -21,3 +21,12 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları s
 Öncelikle projenin çalışması için gerekli olan Python kütüphanelerini (özellikle Microsoft Foundry Local SDK ve Streamlit) kurun:
 ```bash
 pip install -r requirements.txt
+Sistemin cevap üretebilmesi için öncelikle metin belgelerinin (.txt) parçalanıp vektörlere dönüştürülmesi ve veritabanına (rag_database.db) kaydedilmesi gerekir. Bunun için terminalde şu komutu çalıştırın:
+
+python src/document_loader.py
+Not: Bu komut çalıştığında veritabanı dosyası otomatik olarak güncellenecektir.
+3. Uygulamanın Başlatılması
+Veritabanı hazırlandıktan sonra, modern sohbet arayüzünü ayağa kaldırmak için terminale şu komutu yazın:
+
+streamlit run app.py
+Bu komut, varsayılan tarayıcınızda (genellikle http://localhost:8501 adresinde) yerel asistanınızı başlatacaktır. Artık asistanınıza belgelerinizle ilgili sorular sorabilirsiniz!
