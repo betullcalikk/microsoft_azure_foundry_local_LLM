@@ -1,7 +1,7 @@
 # Yerel Yapay Zeka Asistanı (Local RAG AI Assistant)
 
 ## Projenin Amacı
-Bu proje, Microsoft Foundry Local teknolojisini kullanarak tamamen çevrimdışı (offline) ve yerel cihaz üzerinde çalışan bir RAG (Retrieval-Augmented Generation) Soru-Cevap asistanı geliştirmek amacıyla tasarlanmıştır. Proje, "One-Month Project Plan: Local RAG AI Assistant with Microsoft Foundry Local" müfredatının nihai hedeflerini ve bitirme projesi gereksinimlerini (%100) karşılamaktadır.
+Bu proje, Microsoft Foundry Local teknolojisini kullanarak tamamen çevrimdışı (offline) ve yerel cihaz üzerinde çalışan bir RAG (Retrieval-Augmented Generation) Soru-Cevap asistanı geliştirmek amacıyla tasarlanmıştır. Proje, "One-Month Project Plan: Local RAG AI Assistant with Microsoft Foundry Local" müfredatının nihai hedeflerini ve proje gereksinimlerini (%100) karşılamaktadır.
 
 İnternet bağlantısına veya bulut API'lerine ihtiyaç duymadan, tamamen sizin kendi belgelerinize (knowledge base) dayanarak soruları yanıtlar ve yapay zekanın uydurma (halüsinasyon) yapmasını kesin kurallarla engeller.
 
