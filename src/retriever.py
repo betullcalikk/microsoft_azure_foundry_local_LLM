@@ -94,7 +94,7 @@ if __name__ == "__main__":
         print("Hata: rag_database.db bulunamadı! Önce vector_db.py dosyasını çalıştırın.")
         exit(1)
 
-    test_query = "What is RAG and how does it work?"
+    test_query = "RAG nedir ne işe yarar?"
     print(f"\n--- RAG RETRIEVER TEST ---")
     print(f"Soru: {test_query}\n")
 

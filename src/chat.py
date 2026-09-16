@@ -1,6 +1,5 @@
 from foundry_local_sdk import Configuration, FoundryLocalManager
 
-
 class ChatManager:
     def __init__(self):
         FoundryLocalManager.initialize(Configuration(app_name="my-app"))
@@ -14,17 +13,14 @@ class ChatManager:
         print()
 
         self.model.load()
-
         self.client = self.model.get_chat_client()
 
     def ask(self, question):
-
         response = ""
 
         for chunk in self.client.complete_streaming_chat([
             {"role": "user", "content": question}
         ]):
-
             if not chunk.choices:
                 continue
 
